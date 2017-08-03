@@ -1,9 +1,5 @@
-# For projects that use the Waf build system: https://waf.io/
-# Dot-hidden on Unix-like systems
-.waf-*-*/
-.waf3-*-*/
-# Hidden directory on Windows (no dot)
-waf-*-*/
-waf3-*-*/
-# Lockfile
-.lock-waf_*_build
+
+# Leave out samples and playground files
+other/*
+# Leave out node deps
+node_modules/*
