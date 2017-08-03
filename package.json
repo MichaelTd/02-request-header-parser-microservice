@@ -1,0 +1,24 @@
+{
+  "name": "02-request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "freeCodeCamp's 2'nd be challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "microservice",
+    "fcc",
+    "header-parser"
+  ],
+  "author": "tdm",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7",
+    "nodemon": "^1.11.0"
+  }
+}
